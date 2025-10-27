@@ -31,7 +31,7 @@ All simulation results and waveform outputs are documented in the attached PDF r
 
 ## Reference
 
-Shyam Perika, Boddu Aja, Sumanto Kar 
+Shyam Perika, Boddu Ajay, Sumanto Kar 
 *A Low Power Dynamic Bitwidth-Adaptive Multiply Accumulate Unit for TinyML Accelerators*,  
 ICTACT Journal on Communication Technology, Vol. 16, No. 3, Sep. 2025.  
 DOI: [10.21917/ijct.2025.0534](https://doi.org/10.21917/ijct.2025.0534)
