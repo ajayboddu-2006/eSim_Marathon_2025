@@ -21,25 +21,18 @@ The design is modeled in Verilog HDL and verified using the open-source EDA tool
 
 ---
 
-## Architecture Summary
-
-- **Multiplier**: Converts signed inputs to unsigned using 2's complement logic. Detects precision mode and generates partial products selectively.
-- **Accumulator**: Uses 8 × 4-bit CLA blocks with enable signals based on operand width. Sign-extension ensures safe accumulation.
-- **Gating Logic**: Implements zero-aware and clock gating to disable computation when inputs are zero.
-
----
 
 ## Simulation Flow
 
 1. Functional verification using Icarus Verilog
 2. RTL converted to NgVeri model and integrated into KiCad schematic in eSim
-3. Mixed-signal simulation using NgSpice to verify waveform behavior
+3. Mixed-signal simulation using NgSpice in eSim to verify architectural behaviour
 
 All simulation results and waveform outputs are documented in the attached PDF report.
 
 ## Reference
 
-Boddu Ajay, Sumanto Kar, and Shyam Perika,  
+Shyam Perika, Boddu Aja, Sumanto Kar 
 *A Low Power Dynamic Bitwidth-Adaptive Multiply Accumulate Unit for TinyML Accelerators*,  
 ICTACT Journal on Communication Technology, Vol. 16, No. 3, Sep. 2025.  
 DOI: [10.21917/ijct.2025.0534](https://doi.org/10.21917/ijct.2025.0534)
